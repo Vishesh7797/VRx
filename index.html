@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>VRx</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#abstract" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABSTRACT</a>
+    <a href="#projectreq" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT REQUIREMENTS</a>
+    <a href="#system" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SYSTEM OVERVIEW</a>
+    <a href="#results" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESULTS</a>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#abstract" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABSTRACT</a>
+  <a href="#projectreq" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECT REQUIREMENTs</a>
+  <a href="#syste," class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SYSTEM OVERVIEW</a>
+  <a href="#results" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESULTS</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">VRx</h2>
+    <p class="w3-opacity"><i>Spring 2020 - Summer 2020</i></p>
+      <ul style="list-style-type:none;">
+  <li>Joshua Tran</li>
+  <li>Matthew Thi</li>
+  <li>Vishesh Gupta</li>
+  <li>Kyal Nguyen</li>
+</ul>
+<h2>Sponsors</h2>
+      <ul style="list-style-type:none;">
+  <li>Jennifer Roye and RaeAnna Jeffers</li>
+  <li>UTA Computer Science Engineering Department</li>
+  <li>UTA Nursing Department</li>
+  <li>UTA Library Department</li>
+
+  </div>
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="abstract">
+  <h4>Abstract</h4>
+The VR Education Sim: Post-Mortem Care is designed to bring realism, functionality, and interactivity to a world brought to life through the Unity game engine. Thus, the program is implemented to fully encase the experience of nurses in a home environment caring for their patient and the patient's family after death. Because this is for educational use, our requirements are strict and clearly defined. All functionality is based on the concepts of realism and training for a brief introduction into the world of nursing. 
+
+<h4>Background</h4>
+The Nursing Department lacks realistic training simulations for post mortem care. Their current solution, vSim, has been criticized for its unrealistic implementation and lack of training in social interactions with the patient. Simply put, nurses do not develop  a relationship with the vSim patient in the same way they would develop a relationship with a patient in a real work scenario. Therefore, many nurses are unprepared for the emotional toll that caring for a terminally ill patient can have on them. In order to mitigate this issue, the Nursing and Education Departments at the University of Texas at Arlington have requested a virtual reality solution. The Nursing Department will be able to make better use of a virtual reality solution as the program will be able to be more realistic than vSim, and focus more on the social aspect of healthcare as well. The Education Department will be able to use a virtual reality solution as well, as the program will be expandable. In other words, by building and utilizing different assets, the simulation can be used to train students in other departments. Ultimately, VRx will be developing the base platform for this virtual reality simulation so that it may be expanded upon by future developers.
+
+<p>The sponsors for this project are Jennifer Roye of the Nursing Department and RaeAnna Jeffers of the Education Department. The relationship between the sponsors and the development team is purely professional, and no member of the development team previously knew either of the sponsors. Jennifer Roye is sponsoring the project due to the Nursing Department’s need for a better training simulation for palliative care. RaeAnna Jeffers is sponsoring the project due to the need for better training simulations for every Department at the University of Texas at Arlington.</p>
+  </div>
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="projectreq">
+  <h4>Project Requirements</h4>
+<ol>
+  <li>Post-Mortem Care scenario will take place entirely within the Home Environment.</li>
+  <li>When beginning the simulation, the nurse will be required to ask a family member to confirm the patient's name and the patient's date of birth.</li>
+  <li>Before beginning examination and care of the patient, the nurse must wash their hands using the sinklocated within the Home Environment.</li>
+  <li>Before beginning the examination and care of the patient, the nurse must equip a pair of gloves.  Thistask will be performed through menu based selections.</li>
+  <li>Before beginning the examination and care of the patient, the nurse may ask a family member if they would like to be present during the process of preparing the patient's body.</li>
+  <li>The nurse will be expected to lower the elevation of the head of the bed so that it is flat/parallel with the body of the bed.</li>
+  <li>The nurse will be expected to confirm the death of the patient before proceeding to cleaning.</li>
+  <li>The stethoscope used for the confirmation of the patient’s death should must be a rigid object but shouldhave a flexible cord.</li>
+  <li>During the process of cleaning the patient, the nurse will be expected to clean the patient’s hair..</li>
+  <li>During the process of cleaning the patient, the nurse will be expected to clean the patient orally. </li>
+  <li>During the process of cleaning the patient, the nurse will be expected to remove the patient’s catheter. </li>
+  <li>During the process of cleaning the patient, the nurse will be expected to engage in a process in whichthey roll the patient’ body over in order to clean and fold the bed sheets </li>
+  <li>During the process of cleaning the patient, the nurse will have the option of changing the patient’sclothing. </li>
+  <li>After the process of cleaning the patient, the nurse will be expected to consult with a family member. </li>
+  <li>The last task the nurse will be expected to perform will be to notify the proper agencies of the patient’sdeath and to request the patient’s body be removed from the Home Environment.  </li>
+  <li>The system will keep track of which tasks have been performed and if tasks have been performed in theappropriate order. </li>
+</ol>
+</div>
+
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="system">
+<h4>System Overview</h4>
+The Goal of this project is to simulate palliative care and social interactions in a virtual environment. To that end, virtual reality was chosen as a means of presence and interaction within the simulation. We chose to use the HTC Vive as the peripheral and Unity as the development engine. The Vive is composed of the headset which will be the users view into the simulation and the Vive controllers which will be how the user will interact with the simulation environment. Unity will consist of the many scripts, assets and scenes that will be created for the simulation and run as the engine putting everything together.
+
+For the simulation itself, the user will be placed in a environment, a hospital room or the patients residence. The user will then have to attempt to clear several critical points to proceed through the simulation. The user will be graded upon completion of the scenario and be given a grade based on there performance on each critical point.
+
+To make the scenario as realistic as possible we will need to make a detailed environment for the user to interact in. This will include things such as a working sink, cabinets, and system readings. These interactions need to be included to include a believable experience to the user. We will also need to make the social interactions with the patient as realistic as possible, to that end we will need several animations and voice overs to be able to interact realistically with the user. Other interactions will be included but the main interactions will be with the patient.
+
+The system will be expandable as it will need to be a toolbox for future developers to use to further craft on top of this project and to possibly start new ones.
+</div>
+
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="results">
+<h4>Results</h4>
+In the current state of the simulation, all critical interactions are able to be performed by the student and verified by the simulation. The fundamental functionality has been completed and can be extended in future iterations of the project. All assets necessary for the hospital environment have also been acquired or developed, and may be further developed in the future by adding animations for the assets. As all critical project requirements were met and the system is extensible, the project is considered to be a success. Below are a few screenshots and a demo video.
+</div>
+  <div class="w3-black">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">IMAGES</h2>
+    </div>
+  </div>
+
+
+
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+<h4>Project Files</h4><ul>
+<li><a href="https://drive.google.com/file/d/1VRjtML02dBc4Fc5XtydrTFyMJEOHGMp2/view?usp=sharing">Project Charter</a></li>
+
+<li><a href="https://drive.google.com/file/d/1hcP_7c3F5LQu7KC22ubTDiCChRmrl9uV/view?usp=sharing">System Requirements Specification</a></li>
+
+<li><a href="https://drive.google.com/file/d/1ypZfupUUBFdNxaSelCKjfkg8sfluv1BW/view?usp=sharing">Architectural Design Specification</a></li>
+
+<li><a href="https://drive.google.com/file/d/1Kj0RWs3QGirhTFWEEm38-Jdi9ucqJJQi/view?usp=sharing">Detailed Design Specification</a></li>
+
+<li><a href="https://drive.google.com/file/d/1iUN3ZA6jY_X-keh2AMmzIFE__fUggv55/view?usp=sharing">Poster</a></li>
+</ul>
+
+<h4>Future Work</h4><ul>
+<li><span style="font-weight: 400;">Improvement of asset quality</span>
+</li>
+<li><span style="font-weight: 400;">Increase non-essential world interactivity</span></li>
+
+<li><span style="font-weight: 400;">Expansion of available environments catered for different departments</span></li>
+</ul>
+
+
+</div>
+
+
+
+
+
+  
+<!-- End Page Content -->
+</div>
+
+
+</body>
+</html>
